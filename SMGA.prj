@@ -1,0 +1,151 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="650032202" file="C:\Users\HP1\Documents\MATLAB\ERROR FREE\SMGA.prj" location="C:\Users\HP1\Documents\MATLAB\ERROR FREE" name="SMGA" preferred-package-location="C:\Users\HP1\Documents\MATLAB\ERROR FREE\SMGA\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>SMGA</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>GOJI Abel Williams</param.authnamewatermark>
+    <param.email>abel.goji@gmail.com</param.email>
+    <param.company />
+    <param.summary>Application for predicting population growth and estimating time of death of a murdered victim</param.summary>
+    <param.description>Application Design to assist user in predicting population growth of population in an environment based on the vershulst logistic growth model and also estimating the time of death of a murdered victim.</param.description>
+    <param.screenshot>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\RUNING LOGO.jpg</param.screenshot>
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\SMGA\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\SMGA\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\SMGA\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\SMGA\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>SMGA</param.log.file>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+    </unset>
+    <fileset.main>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\project.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\graph.jpg</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\malt.jpg</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\moreaboutverhulst.fig</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\moreaboutverhulst.m</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\newtonlawofooling.fig</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\newtonlawofooling.m</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\newtonmodel.jpg</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\newtonsprediction.fig</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\newtonsprediction.m</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\population_prediction.fig</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\population_prediction.m</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\populationgrowth.fig</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\populationgrowth.m</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\project.fig</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\project.m</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\project1.fig</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\project1.m</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\RUNING LOGO.jpg</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\scmo.JPG</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\solved.jpg</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\solved_newtonmodel.jpg</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\user.jpg</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\USER.pdf</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\userdocumentation.fig</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\userdocumentation.m</file>
+      <file>C:\Users\HP1\Documents\MY PROJECT FILES AND DOCUMENTS\APPLICATION CODE AND FILES\vmm.jpg</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\SMGA\for_testing" name="readme.txt" optional="true">C:\Users\HP1\Documents\MATLAB\ERROR FREE\SMGA\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\SMGA\for_testing" name="SMGA.exe" optional="false">C:\Users\HP1\Documents\MATLAB\ERROR FREE\SMGA\for_testing\SMGA.exe</file>
+      <file location="${PROJECT_ROOT}\SMGA\for_testing" name="splash.png" optional="false">C:\Users\HP1\Documents\MATLAB\ERROR FREE\SMGA\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
